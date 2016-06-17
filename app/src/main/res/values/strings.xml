@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LibreriaApp</string>
+
+    <string name="id">Documento</string>
+    <string name="nombre">Nombre</string>
+    <string name="autor">Autor</string>
+    <string name="editorial">Editorial</string>
+    <string name="tipo_literatura">Tipo de Literatura</string>
+    <string name="guardar">Guardar</string>
+    <string name="mostar">Mostrar lista</string>
+    <string name="modificar">Modificar</string>
+    <string name="buscar">Buscar libro</string>
+</resources>
