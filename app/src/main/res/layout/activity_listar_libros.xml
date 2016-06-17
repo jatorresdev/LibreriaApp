@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lista_datos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etId" />
+
+    <TextView
+        android:id="@+id/etId"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="@string/id"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/etNombre"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/nombre"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/etId" />
+
+    <TextView
+        android:id="@+id/etAutor"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/autor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/etNombre" />
+
+    <TextView
+        android:id="@+id/etEditorial"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/editorial"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/etAutor" />
+</RelativeLayout>
