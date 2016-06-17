@@ -51,25 +51,26 @@
         android:text="@string/guardar"
         android:id="@+id/btnAgregar"
         android:onClick="onClickAgregar"
-        android:layout_alignTop="@+id/btnMostrar"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/etTipoLiteratura"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp" />
 
-    <Button
+<!--    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/buscar"
         android:id="@+id/btnBuscar"
         android:onClick="onClickModificar"
         android:layout_alignTop="@+id/btnMostrar"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true" />-->
 
-    <Button
+<!--    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mostar"
         android:id="@+id/btnMostrar"
         android:onClick="onClickMostrarLista"
         android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/btnBuscar" />
+        android:layout_toStartOf="@+id/btnBuscar" />-->
 
 </RelativeLayout>
