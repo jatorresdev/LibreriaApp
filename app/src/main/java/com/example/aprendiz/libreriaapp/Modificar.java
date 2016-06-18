@@ -50,11 +50,23 @@ public class Modificar extends AppCompatActivity {
                 editorial.getText().toString(),
                 tipoLiteratura.getText().toString());
 
-        libro.setId(Integer.parseInt(id.getText().toString()));
         base.actualizarLibro(libro);
         goListLibros();
 
-        Toast.makeText(getApplicationContext(), "Libro actualizado", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Libro actualizado " + libro.getNombre(), Toast.LENGTH_SHORT).show();
+    }
+
+    public void confirmarEliminar(View mv) {
+        Libreria libro = new Libreria(Integer.parseInt(id.getText().toString()),
+                nombre.getText().toString(),
+                autor.getText().toString(),
+                editorial.getText().toString(),
+                tipoLiteratura.getText().toString());
+
+        base.eliminarLibro(libro);
+
+        goListLibros();
+        Toast.makeText(getApplicationContext(), "Libro eliminado " + libro.getNombre(), Toast.LENGTH_SHORT).show();
     }
 
     public void goListLibros() {
