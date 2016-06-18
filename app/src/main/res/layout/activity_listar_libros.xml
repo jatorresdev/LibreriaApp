@@ -13,16 +13,16 @@
 
     <TextView
         android:id="@+id/etId"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="20dp"
         android:text="@string/id"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
         android:id="@+id/etNombre"
-        android:layout_width="80dp"
+        android:layout_width="70dp"
         android:layout_height="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:text="@string/nombre"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_alignParentTop="true"
@@ -30,9 +30,9 @@
 
     <TextView
         android:id="@+id/etAutor"
-        android:layout_width="80dp"
+        android:layout_width="70dp"
         android:layout_height="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:text="@string/autor"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_alignParentTop="true"
@@ -40,12 +40,22 @@
 
     <TextView
         android:id="@+id/etEditorial"
-        android:layout_width="80dp"
+        android:layout_width="70dp"
         android:layout_height="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:text="@string/editorial"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_toEndOf="@id/etAutor" />
+
+    <TextView
+        android:id="@+id/etTipoLiteratura"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/tipo_literatura"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/etEditorial" />
 </RelativeLayout>

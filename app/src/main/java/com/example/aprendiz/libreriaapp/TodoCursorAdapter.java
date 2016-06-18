@@ -31,18 +31,18 @@ public class TodoCursorAdapter extends CursorAdapter {
         nombre = (TextView) view.findViewById(R.id.etNombre);
         autor = (TextView) view.findViewById(R.id.etAutor);
         editorial = (TextView) view.findViewById(R.id.etEditorial);
-        //tipoLiteratura = (TextView)  view.findViewById(R.id.etTipoLiteratura);
+        tipoLiteratura = (TextView)  view.findViewById(R.id.etTipoLiteratura);
 
         vid = cursor.getInt(cursor.getColumnIndex("_id"));
         vnombre = cursor.getString(cursor.getColumnIndex("nombre"));
         vautor = cursor.getString(cursor.getColumnIndex("autor"));
         veditorial = cursor.getString(cursor.getColumnIndex("editorial"));
-        //vtipoLiteratura = cursor.getString(cursor.getColumnIndex("tipo_literatura"));
+        vtipoLiteratura = cursor.getString(cursor.getColumnIndex("tipo_literatura"));
 
         id.setText(String.valueOf(vid));
         nombre.setText(vnombre);
         autor.setText(vautor);
         editorial.setText(String.valueOf(vautor));
-        //tipoLiteratura.setText(String.valueOf(vtipoLiteratura));
+        tipoLiteratura.setText(String.valueOf(vtipoLiteratura));
     }
 }
