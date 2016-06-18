@@ -10,4 +10,7 @@
     <string name="mostar">Mostrar</string>
     <string name="modificar">Modificar</string>
     <string name="buscar">Buscar libro</string>
+    <string name="titulo_listar">Lista de libros</string>
+    <string name="titulo_buscar">Buscar libro</string>
+    <string name="titulo_modificar">Modificar libro</string>
 </resources>

@@ -16,8 +16,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:label="@string/titulo_listar"
             android:name=".ListarLibros"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:label="@string/titulo_buscar"
+            android:name=".PreModificar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:label="@string/titulo_modificar"
+            android:name=".Modificar"
+            android:parentActivityName=".PreModificar" />
     </application>
 
 </manifest>
